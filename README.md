@@ -32,7 +32,6 @@ A simple Hangman game implemented in Python as part of an internship task at **C
 4. Run the script using:
    python hangman.py
 ### 💡 Sample Output
-
 Welcome to Hangman!
 Guess the word, one letter at a time.
 You have 6 incorrect guesses.
@@ -46,5 +45,23 @@ Word: a _ _ _ _
 Guessed letters: a
 Enter a letter: e
 Correct!
-...
-Congratulations! You guessed the word: apple
+
+Word: a _ _ _ e
+Guessed letters: a, e
+Enter a letter: i
+Incorrect! You have 5 guesses left.
+
+Word: a _ _ _ e
+Guessed letters: a, e, i
+Enter a letter: p
+Correct!
+
+Word: a p p _ e
+Guessed letters: a, e, i, p
+Enter a letter: l
+Correct!
+
+Word: a p p l e
+Guessed letters: a, e, i, p, l
+
+ Congratulations! You guessed the word: apple
