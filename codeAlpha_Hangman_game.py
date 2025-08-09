@@ -14,7 +14,7 @@ max_wrong_guesses = 6
 # Create a display version of the word ("_ _ _ _ _")
 display_word = ["_"] * len(secret_word)
 
-print("🎮 Welcome to Hangman!")
+print(" Welcome to Hangman!")
 print("Guess the word, one letter at a time.")
 print("You have 6 incorrect guesses.\n")
 
@@ -48,3 +48,4 @@ if "_" not in display_word:
     print("Congratulations! You guessed the word:", secret_word)
 else:
     print("Game Over! The word was:", secret_word)
+
