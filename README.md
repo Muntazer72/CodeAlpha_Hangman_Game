@@ -31,3 +31,20 @@ A simple Hangman game implemented in Python as part of an internship task at **C
 3. Open a terminal or command prompt.
 4. Run the script using:
    python hangman.py
+### 💡 Sample Output
+
+Welcome to Hangman!
+Guess the word, one letter at a time.
+You have 6 incorrect guesses.
+
+Word: _ _ _ _ _
+Guessed letters: 
+Enter a letter: a
+Correct!
+
+Word: a _ _ _ _
+Guessed letters: a
+Enter a letter: e
+Correct!
+...
+Congratulations! You guessed the word: apple
